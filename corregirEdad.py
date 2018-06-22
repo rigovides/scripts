@@ -4,7 +4,7 @@ class Edad:
     	self.month = 0
     	self.day = 0
 
-def correjirEdad(ev, en, w):
+def corregirEdad(ev, en, w):
 
 	edadCorregida = Edad()
 
@@ -50,4 +50,4 @@ if __name__ == "__main__":
 	edadN.month = en_month
 	edadN.day = en_day
 
-	correjirEdad(edadEV, edadN, weeks)
+	corregirEdad(edadEV, edadN, weeks)
